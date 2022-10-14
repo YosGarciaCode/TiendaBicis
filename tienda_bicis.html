@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tienda de Bicis</title>
+</head>
+
+<body>
+    <h1>Tienda de Bicis</h1>
+
+    <form action="validacion.php" method="POST">
+    <h3>Elige un tipo de Extras:</h3>
+    Frenos Hidraulicos:
+    <input type="radio" name="frenos" value="hidra" id="hidra">
+    Frenos Normales:
+    <input type="radio" name="frenos" value="norm" id="norm"><br><br>
+    Amortiguación delantera:
+    <input type="radio" name="amort" value="delantera" id="delantera">
+    Amortiguación trasera:
+    <input type="radio" name="amort" value="trasera" id="trasera">
+    Amortiguación delantera y trasera:
+    <input type="radio" name="amort" value="dyt" id="dyt"><br><br>
+    Calas:
+    <input type="radio" name="calas" value="si" id="si">SI
+    <input type="radio" name="calas" value="no" id="no">NO <br> <br>
+    Ruedas Gruesas:
+    <input type="radio" name="ruedas" value="gruesas" id="gruesas">
+    Ruedas normales:
+    <input type="radio" name="ruedas" value="normales" id="normales"><br><br>
+    <input type="submit" name="enviar" value="Conocer precio total">
+</form>
+</body>
+
+</html>
